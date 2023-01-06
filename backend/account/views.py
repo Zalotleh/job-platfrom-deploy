@@ -6,12 +6,15 @@ from rest_framework import status
 from django.contrib.auth.hashers import make_password
 
 from .serializers import SignUpSerializer, UserSerializer
+from .validators import validate_file_extension
 
 from rest_framework.permissions import IsAuthenticated
 
 from django.contrib.auth.models import User
 
+
 # Create your views here.
+
 
 @api_view(['POST'])
 def register(request):
@@ -21,15 +24,15 @@ def register(request):
 
     if user.is_valid():
         if not User.objects.filter(username=data['email']).exists():
-           user = User.objects.create(
-               first_name = data['first_name'],
-               last_name = data['last_name'],
-               username = data['email'],
-               email = data['email'],
-               password = make_password(data['password'])
-           ) 
+            user = User.objects.create(
+                first_name=data['first_name'],
+                last_name=data['last_name'],
+                username=data['email'],
+                email=data['email'],
+                password=make_password(data['password'])
+            )
 
-           return Response({
+            return Response({
                 'message': 'User registered.'},
                 status=status.HTTP_200_OK
             )
@@ -46,7 +49,6 @@ def register(request):
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def currentUser(request):
-
     user = UserSerializer(request.user)
 
     return Response(user.data)
@@ -57,7 +59,7 @@ def currentUser(request):
 def updateUser(request):
     user = request.user
 
-    data = request.data    
+    data = request.data
 
     user.first_name = data['first_name']
     user.last_name = data['last_name']
@@ -72,18 +74,24 @@ def updateUser(request):
     serializer = UserSerializer(user, many=False)
     return Response(serializer.data)
 
+
 handler500 = 'rest_framework.exceptions.server_error'
 
 
 @api_view(['PUT'])
 @permission_classes([IsAuthenticated])
 def uploadResume(request):
-    
     user = request.user
     resume = request.FILES['resume']
+    print(request.FILES['resume'])
 
     if resume == '':
-        return({'error': 'Please upload your resume'})
+        return Response({'error': 'Please upload your resume.'}, status=status.HTTP_400_BAD_REQUEST)
+
+    isValidFile = validate_file_extension(resume.name)
+
+    if not isValidFile:
+        return Response({'error': 'Please upload only pdf file.'}, status=status.HTTP_400_BAD_REQUEST)
 
     serializer = UserSerializer(user, many=False)
 

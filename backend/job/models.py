@@ -2,12 +2,12 @@ from datetime import *
 from django.db import models
 from django.contrib.auth.models import User
 
-
 from django.core.validators import MinValueValidator, MaxValueValidator
 import geocoder
 import os
 from django.contrib.gis.db import models as gismodels
 from django.contrib.gis.geos import Point
+
 
 # Create your models here.
 
@@ -16,10 +16,12 @@ class JobType(models.TextChoices):
     Temporary = 'Temporary'
     Internship = 'Internship'
 
+
 class Education(models.TextChoices):
     Bachelors = 'Bachelors'
     Master = 'Master'
     Phd = 'Phd'
+
 
 class Industry(models.TextChoices):
     Business = 'Business'
@@ -29,6 +31,7 @@ class Industry(models.TextChoices):
     Telecommunication = 'Telecommunication'
     Others = 'Others'
 
+
 class Experience(models.TextChoices):
     NO_EXPERIENCE = 'No Experience'
     ONE_YEAR = '1 Years'
@@ -37,7 +40,7 @@ class Experience(models.TextChoices):
 
 
 def return_date_time():
-    now= datetime.now()
+    now = datetime.now()
     return now + timedelta(days=10)
 
 
@@ -47,10 +50,10 @@ class Job(models.Model):
     email = models.EmailField(null=True)
     address = models.CharField(max_length=100, null=True)
     jobType = models.CharField(
-        max_length=10, 
+        max_length=10,
         choices=JobType.choices,
         default=JobType.Permanent
-     )
+    )
 
     education = models.CharField(
         max_length=10,
@@ -72,7 +75,7 @@ class Job(models.Model):
     salary = models.IntegerField(default=1, validators=[MinValueValidator(1), MaxValueValidator(1000000)])
     positions = models.IntegerField(default=1)
     company = models.CharField(max_length=100, null=True)
-    point = gismodels.PointField(default=Point(0.0,0.0))
+    point = gismodels.PointField(default=Point(0.0, 0.0))
     lastDate = models.DateTimeField(default=return_date_time)
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     createdAt = models.DateTimeField(auto_now_add=True)
@@ -89,3 +92,10 @@ class Job(models.Model):
 
         self.point = Point(lng, lat)
         super(Job, self).save(*args, **kwargs)
+
+
+class CandidatesApplied(models.Model):
+    job = models.ForeignKey(Job, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
+    resume = models.CharField(max_length=200)
+    appliedAt = models.DateTimeField(auto_now_add=True)
