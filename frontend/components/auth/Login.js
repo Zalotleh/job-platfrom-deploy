@@ -39,9 +39,11 @@ const Login = () => {
             <Image
               src="/images/login.svg"
               alt="login"
-              layout="fill"
-              objectFit="contain"
-            />
+              fill
+              sizes="100vw"
+              style={{
+                objectFit: "contain"
+              }} />
           </div>
         </div>
         <div className="right">

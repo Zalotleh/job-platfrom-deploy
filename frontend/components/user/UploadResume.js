@@ -51,7 +51,7 @@ const UploadResume = ({ access_token }) => {
       <div className="modalWrapper">
         <div className="left">
           <div style={{ width: "100%", height: "100%", position: "relative" }}>
-            <Image src="/images/resume-upload.svg" alt="resume" layout="fill" />
+            <Image src="/images/resume-upload.svg" alt="resume" fill sizes="100vw" />
           </div>
         </div>
         <div className="right">
@@ -79,7 +79,7 @@ const UploadResume = ({ access_token }) => {
                   <h4 className="text-center my-3">OR</h4>
 
                   <Link
-                    href={`https://jobbee-api.s3.amazonaws.com/${user.resume}`}
+                    href={`https://job-platform.s3.amazonaws.com/${user.resume}`}
                   >
                     <a
                       className="text-success text-center ml-4"

@@ -38,6 +38,8 @@ const UpdateProfile = ({ access_token }) => {
     if (updated) {
       setUpdated(false);
       router.push("/me");
+      toast.success("Your profile is updated successfully.");
+
     }
   }, [error, user, updated]);
 
@@ -51,7 +53,7 @@ const UpdateProfile = ({ access_token }) => {
       <div className="modalWrapper">
         <div className="left">
           <div style={{ width: "100%", height: "100%", position: "relative" }}>
-            <Image src="/images/profile.svg" alt="register" layout="fill" />
+            <Image src="/images/profile.svg" alt="register" fill sizes="100vw" />
           </div>
         </div>
         <div className="right">
