@@ -78,7 +78,7 @@ const UploadResume = ({ access_token }) => {
                 <>
                   <h4 className="text-center my-3">OR</h4>
 
-                  <Link
+                  <Link legacyBehavior
                     href={`https://job-platform.s3.amazonaws.com/${user.resume}`}
                   >
                     <a
