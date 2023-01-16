@@ -4,8 +4,7 @@ import moment from "moment";
 
 const JobItem = ({job}) => {
   return (
-    <Link href={`/jobs/${job.id}/`} legacyBehavior>
-      <a className="job-listing">
+      <a className="job-listing" href={`/jobs/${job.id}/`}>
         <div className="job-listing-details">
           <div className="job-listing-description">
             <h4 className="job-listing-company">{job.company}</h4>
@@ -37,7 +36,6 @@ const JobItem = ({job}) => {
           </ul>
         </div>
       </a>
-    </Link>
   );
 };
 

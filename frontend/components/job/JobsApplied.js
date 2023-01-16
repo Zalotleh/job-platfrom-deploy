@@ -4,6 +4,19 @@ import Link from "next/link";
 import DataTable from "react-data-table-component";
 
 const JobsApplied = ({ jobs }) => {
+
+
+// declare the variables hasmounted and setHasMounted to make
+const [hasMounted, setHasMounted] = React.useState(false);
+
+    //If react doesn't mount yet then it will return nothing.
+    React.useEffect(() => {
+        setHasMounted(true);
+    }, []);
+
+    if(!hasMounted) {
+        return null;
+    }
   const columns = [
     {
       name: "Job name",
@@ -49,11 +62,9 @@ const JobsApplied = ({ jobs }) => {
         experience: item.job.experience,
         appliedOn: item.appliedAt.substring(0, 10),
         action: (
-          <Link  href={`/jobs/${item.job.id}/`} legacyBehavior>
-            <a className="btn btn-primary">
+            <a href={`/jobs/${item.job.id}/`} className="btn btn-primary">
               <i aria-hidden className="fa fa-eye"></i>
             </a>
-          </Link>
         ),
       });
     });

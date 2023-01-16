@@ -16,7 +16,7 @@ const Header = ()=>{
     return (
       <div className="navWrapper">
     <div className="navContainer">
-      <Link href="/">
+      <Link href="/" legacyBehavior>
         <div className="logoWrapper">
           <div className="logoImgWrapper ">
             <Image width="50" height="30" src="/images/logo.svg" alt=""/>
@@ -26,7 +26,7 @@ const Header = ()=>{
         </div>
       </Link>
       <div className="btnsWrapper">
-        <Link href="/employeer/jobs/new">
+        <Link href="/employeer/jobs/new" legacyBehavior>
           <button className="postAJobButton">
             <span>Post A Job</span>
           </button>
@@ -48,7 +48,7 @@ const Header = ()=>{
               className="dropdown-menu"
               aria-labelledby="dropDownMenuButton"
             >
-              <Link href="/employer/jobs" legacyBehavior>
+              <Link href="/employeer/jobs" legacyBehavior>
                 <a className="dropdown-item">My Jobs</a>
               </Link>
 
@@ -77,7 +77,7 @@ const Header = ()=>{
         ) : (
           !loading && (
 
-        <Link href="/login">
+        <Link href="/login" legacyBehavior>
               <button className="loginButtonHeader">
                 <span>Login</span>
               </button>
