@@ -1,5 +1,0 @@
-myenv/
-backend/db.sqlite3
-backend/backend/.env
-backend/static/
-.idea
