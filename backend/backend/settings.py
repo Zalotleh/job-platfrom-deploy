@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG') == 'True'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'job-platform-v1.vercel.app', '.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'job-platform-v1.vercel.app']
 
 # Application definition
 
@@ -153,7 +153,7 @@ CORS_ALLOWED_ORIGINS = [
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_TMP = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
