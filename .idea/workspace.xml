@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="ran command: heroku config:set DISABLE_COLLECTSTATIC=1&#10; to solve the deployment error in heroku">
-      <change beforePath="$PROJECT_DIR$/.idea/job-platform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/job-platform.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
     </list>
@@ -56,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674071954385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ran command: heroku config:set DISABLE_COLLECTSTATIC=1&#10; to solve the deployment error in heroku">
+      <created>1674075182596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674075182596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
