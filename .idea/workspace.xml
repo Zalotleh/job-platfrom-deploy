@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="trying to solve the  following error : &#10;Procfile declares types -&lt; (none), i added the backend to the path to become: backend/backend.wsgi">
-      <change beforePath="$PROJECT_DIR$/backend/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Procfile" afterDir="false" />
+    <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Procfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +19,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -29,13 +30,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;W:/Programming/job-platform&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "W:/Programming/job-platform",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -122,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674133196138</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)">
+      <created>1674133715016</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674133715016</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +174,7 @@
     <MESSAGE value="ran command: heroku config:set DISABLE_COLLECTSTATIC=1&#10; to solve the deployment error in heroku" />
     <MESSAGE value="trying to solve the  following error : &#10;GEOS_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/geos_c.dll'&#10;TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'&#10;&#10;when using heroku bash command: python backend/manage.py makemigrations" />
     <MESSAGE value="trying to solve the  following error : &#10;Procfile declares types -&lt; (none), i added the backend to the path to become: backend/backend.wsgi" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to solve the  following error : &#10;Procfile declares types -&lt; (none), i added the backend to the path to become: backend/backend.wsgi" />
+    <MESSAGE value="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)" />
   </component>
 </project>
