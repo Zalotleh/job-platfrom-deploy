@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="trying to solve the  following error : &#10;GEOS_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/geos_c.dll'&#10;TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'&#10;&#10;when using heroku bash command: python backend/manage.py makemigrations">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="trying to solve the  following error : &#10;Procfile declares types -&lt; (none), i added the backend to the path to become: backend/backend.wsgi">
       <change beforePath="$PROJECT_DIR$/backend/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674123325922</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none), i added the backend to the path to become: backend/backend.wsgi">
+      <created>1674131358397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674131358397</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,7 +115,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="heroku/dev" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -132,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ran command: heroku config:set DISABLE_COLLECTSTATIC=1&#10; to solve the deployment error in heroku" />
     <MESSAGE value="trying to solve the  following error : &#10;GEOS_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/geos_c.dll'&#10;TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'&#10;&#10;when using heroku bash command: python backend/manage.py makemigrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to solve the  following error : &#10;GEOS_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/geos_c.dll'&#10;TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'&#10;&#10;when using heroku bash command: python backend/manage.py makemigrations" />
+    <MESSAGE value="trying to solve the  following error : &#10;Procfile declares types -&lt; (none), i added the backend to the path to become: backend/backend.wsgi" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to solve the  following error : &#10;Procfile declares types -&lt; (none), i added the backend to the path to become: backend/backend.wsgi" />
   </component>
 </project>
