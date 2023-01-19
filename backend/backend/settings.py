@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG') == 'True'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'job-platform-v1.vercel.app']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'job-platform-django.herokuapp.com']
 
 # Application definition
 
