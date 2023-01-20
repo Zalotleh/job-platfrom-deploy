@@ -1,1 +1,1 @@
-gunicorn --worker-tmp-dir /dev/shm backend.wsgi
+web: gunicorn backend.wsgi
