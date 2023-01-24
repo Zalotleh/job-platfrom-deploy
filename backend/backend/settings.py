@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG') == 'True'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'job-platform-django.herokuapp.com', 'jobplatform-env-1.eba-kixa3pu9.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'storages',
     'django.contrib.gis',
     'django_filters',
-
+    'backend'
     'job.apps.JobConfig',
     'account.apps.AccountConfig',
 ]
@@ -179,9 +179,9 @@ DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-VIRTUAL_ENV_BASE = os.environ.get("VIRTUAL_ENV")
-
-GEOS_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/geos_c.dll'
-GDAL_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/gdal304.dll'
+# VIRTUAL_ENV_BASE = os.environ.get("VIRTUAL_ENV")
+#
+# GEOS_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/geos_c.dll'
+# GDAL_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/gdal304.dll'
 
 
