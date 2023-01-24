@@ -5,7 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="trying to solve the process type error with heroku deployment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/auth/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/auth/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/job/JobCandidates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/job/JobDetails.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/job/JobItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/job/JobsApplied.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/job/MyJobs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/job/NewJob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/job/UpdateJob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/job/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/layout/Filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/layout/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/layout/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/layout/Layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/layout/Loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/layout/NotFound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/layout/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/stats/TopicStats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/user/UpdateProfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/user/UploadResume.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/context/AuthContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/context/JobContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/middleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/api/auth/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/api/auth/logout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/api/auth/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/employeer/jobs/[id].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/employeer/jobs/candidates/[id].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/employeer/jobs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/employeer/jobs/new.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/jobs/[id].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/me/applied.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/me/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/upload/resume.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/404.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/job-search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/login.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/profile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/resume-upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/signup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/thirteen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/utils/isAuthenticated.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +84,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -275,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674564887847</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="trying to solve the process type error with heroku deployment">
+      <created>1674565082495</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1674565082495</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
