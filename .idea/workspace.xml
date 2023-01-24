@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="trying to solve the process type error with heroku deployment">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674069735185</updated>
-    </task>
-    <task id="LOCAL-00006" summary="trying to solve the  following error : &#10;GEOS_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/geos_c.dll'&#10;TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'&#10;&#10;when using heroku bash command: python backend/manage.py makemigrations">
-      <created>1674076850307</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1674076850307</updated>
     </task>
     <task id="LOCAL-00007" summary="trying to solve the  following error : &#10;GEOS_LIBRARY_PATH = VIRTUAL_ENV_BASE + '/Lib/site-packages/osgeo/geos_c.dll'&#10;TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'&#10;&#10;when using heroku bash command: python backend/manage.py makemigrations">
       <created>1674123325922</created>
@@ -410,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674576236923</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="trying to solve the process type error with heroku deployment">
+      <created>1674576575645</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1674576575645</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
