@@ -66,13 +66,6 @@
       <option name="presentableId" value="Default" />
       <updated>1674069735185</updated>
     </task>
-    <task id="LOCAL-00010" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none), i added the backend to the path to become: backend/backend.wsgi">
-      <created>1674131615029</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1674131615029</updated>
-    </task>
     <task id="LOCAL-00011" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none), i added the backend to the path to become: backend/backend.wsgi">
       <created>1674133196138</created>
       <option name="number" value="00011" />
@@ -409,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674577449324</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="trying to solve the process type error with heroku deployment">
+      <created>1674577686200</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1674577686200</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
