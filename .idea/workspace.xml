@@ -59,13 +59,6 @@
       <option name="presentableId" value="Default" />
       <updated>1674069735185</updated>
     </task>
-    <task id="LOCAL-00001" summary="ran command: heroku config:set DISABLE_COLLECTSTATIC=1&#10; to solve the deployment error in heroku">
-      <created>1674071273904</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1674071273904</updated>
-    </task>
     <task id="LOCAL-00002" summary="ran command: heroku config:set DISABLE_COLLECTSTATIC=1&#10; to solve the deployment error in heroku">
       <created>1674071954385</created>
       <option name="number" value="00002" />
@@ -402,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674574299911</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="trying to solve the process type error with heroku deployment">
+      <created>1674574663066</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1674574663066</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
