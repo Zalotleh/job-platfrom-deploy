@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath backend.wsgi:application --log-file -
+web: gunicorn -b 127.0.0.1:8001 backend.wsgi:application --log-file -
