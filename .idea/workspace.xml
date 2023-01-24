@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="trying to solve the process type error with heroku deployment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674069735185</updated>
-    </task>
-    <task id="LOCAL-00018" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)">
-      <created>1674296184501</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1674296184501</updated>
-    </task>
-    <task id="LOCAL-00019" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)">
-      <created>1674296686023</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1674296686023</updated>
     </task>
     <task id="LOCAL-00020" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)">
       <created>1674297126145</created>
@@ -408,7 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674580118841</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="trying to solve the process type error with heroku deployment">
+      <created>1674580225492</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1674580225492</updated>
+    </task>
+    <task id="LOCAL-00068" summary="trying to solve the process type error with heroku deployment">
+      <created>1674580580868</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1674580580868</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
