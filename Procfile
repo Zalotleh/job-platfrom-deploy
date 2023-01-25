@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath job-platform-django.backend.wsgi:application
+web: gunicorn --pythonpath backend.backend.wsgi:application --log-file -
