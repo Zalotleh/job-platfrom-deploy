@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
