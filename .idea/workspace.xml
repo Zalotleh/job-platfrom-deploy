@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="trying to solve the process type error with heroku deployment">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-    </list>
+    <list default="true" id="c9a2de00-0728-4f32-a337-ad77441c9ca4" name="Changes" comment="trying to solve the process type error with heroku deployment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,27 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674069735185</updated>
-    </task>
-    <task id="LOCAL-00023" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)">
-      <created>1674301337893</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1674301337893</updated>
-    </task>
-    <task id="LOCAL-00024" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)">
-      <created>1674402542298</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1674402542298</updated>
-    </task>
-    <task id="LOCAL-00025" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)">
-      <created>1674402734519</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1674402734519</updated>
     </task>
     <task id="LOCAL-00026" summary="trying to solve the  following error : &#10;Procfile declares types -&lt; (none)">
       <created>1674404209976</created>
@@ -408,7 +385,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674636363345</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="trying to solve the process type error with heroku deployment">
+      <created>1674636648032</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1674636648032</updated>
+    </task>
+    <task id="LOCAL-00073" summary="trying to solve the process type error with heroku deployment">
+      <created>1674636748050</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1674636748050</updated>
+    </task>
+    <task id="LOCAL-00074" summary="trying to solve the process type error with heroku deployment">
+      <created>1674636912268</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1674636912268</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
