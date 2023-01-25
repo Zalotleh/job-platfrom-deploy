@@ -47,7 +47,6 @@ INSTALLED_APPS = [
     'storages',
     'django.contrib.gis',
     'django_filters',
-    'backend'
     'job.apps.JobConfig',
     'account.apps.AccountConfig',
 ]
@@ -154,7 +153,6 @@ CORS_ALLOWED_ORIGINS = [
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_TMP = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
 
